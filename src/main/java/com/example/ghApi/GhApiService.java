@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Service  // ✅ Dodana adnotacja, żeby Spring rozpoznał tę klasę jako Bean
+@Service  // 
 class GhApiService {
     private final RestTemplate restTemplate;
 
